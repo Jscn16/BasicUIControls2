@@ -21,16 +21,7 @@ public class MainActivity extends AppCompatActivity {
         actv.setAdapter(aa);
     }
 
-    /* TO IMPLEMENT, SHOW TOAST*/
     public void selectButtonClicked(View view) {
-        //find radiogroup
-        //RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup);
-        //int id = rg.getCheckedRadioButtonId();
-        //find button
-        //RadioButton rb = (RadioButton) findViewById(id);
-        //get editable text
-        //String text = (String) rb.getText();
-        //toast message to screen
         EditText etlogin = (EditText) findViewById(R.id.editTextLogin);
         String textlogin = (String) etlogin.getText().toString();
 
