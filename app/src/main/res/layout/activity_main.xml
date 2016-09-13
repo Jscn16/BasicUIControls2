@@ -64,7 +64,8 @@
             <Button
                 android:text="@string/login_button_text"
                 android:id="@+id/button"
-                android:layout_column="0" />
+                android:layout_column="0"
+                android:onClick="selectButtonClicked"/>
         </TableRow>
     </TableLayout>
 </RelativeLayout>
